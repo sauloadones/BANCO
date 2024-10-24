@@ -40,7 +40,7 @@ O Modelo entidade relacional é uma maneira de modelar os dados de um sistema de
 
 - Podemos agora começar a dar inicio ao nosso Banco de Dados, primeiramente precisamos criar nossas tabelas de forma que sigam o padrão do Modelo Relacional para que não haja conflito futuramente com a inserção de dados
 
-*** Criar Tabela ***
+**Criar Tabela**
 ```sql 
     CREATE TABLE EnderecoFunc (
     CREATE TABLE Funcionario (
@@ -57,7 +57,7 @@ O Modelo entidade relacional é uma maneira de modelar os dados de um sistema de
 
 - Apos a criação com sucesso da tabela podemos inserir dados dentro dela de forma manual
 
-*** Inserir Dados na Tabela ***
+**Inserir Dados na Tabela**
 
 ```sql 
     INSERT INTO Funcionario (nome, dataNascimento, dataAdmissao, sexo, email)
@@ -76,7 +76,7 @@ O Modelo entidade relacional é uma maneira de modelar os dados de um sistema de
 
 - Apos a inserir os dados na tabelas podemos visualizalos com as views
 
-*** Criação de views ***
+**Criação de views**
 
 ```sql
     CREATE VIEW vw_funcionarios_cargos AS
